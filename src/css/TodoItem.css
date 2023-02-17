@@ -1,0 +1,23 @@
+.TodoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  list-style: none;
+  border: 2px solid red;
+  border-radius: 1rem;
+  padding: 0.3rem 2rem;
+}
+.textoItem {
+  font-family: 'Rubik';
+  font-weight: 400;
+}
+.iconFa {
+  font-size: 1.3rem;
+}
+.Icon-check--active {
+  color: #1ad796;
+}
+.textoItem--complete {
+  text-decoration: line-through;
+}
