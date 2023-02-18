@@ -1,0 +1,42 @@
+.btnCreateTodo {
+  font-family: 'Rubik';
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  border: none;
+  padding: 7px 13px;
+  background: #CB8E95;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  cursor: pointer;
+  width: max-content;
+}
+.btnCreateTodo:active {
+  box-shadow: none;
+  background: #b47e85;
+}
+.contain {
+  display: grid;
+  row-gap: 16px;
+  width: 260px;
+  max-width: 100%;
+}
+.inputCreateTask {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 14px;
+  background: #D9D9D9;
+  color: #4B4B4B;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+span {
+  display: block;
+  font-family: 'Rubik';
+  font-weight: 600;
+  font-size: 24px;
+}

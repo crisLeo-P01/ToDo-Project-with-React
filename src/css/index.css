@@ -9,19 +9,3 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-.btnCreateTodo {
-  border: none;
-  background: red;
-  border-radius: 50%;
-  color: white;
-  position: absolute;
-  right: 3rem;
-  bottom: 3rem;
-  font-size: 1.3rem;
-  padding: 0.6rem;
-  display: flex;
-  box-shadow: 0px 0px 0px 2px rgb(178 110 110 / 70%);
-}
-.btnCreateTodo:active {
-  box-shadow: none;
-}
