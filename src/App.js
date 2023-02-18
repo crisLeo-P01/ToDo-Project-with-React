@@ -1,6 +1,7 @@
 import React from "react";
 import { CreateTodoButton } from "./components/CreateTodoButton";
 import { TodoTable } from "./components/TodoTable";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import './App.css';
 
@@ -18,10 +19,8 @@ function App() {
     */
     
     <React.Fragment>
-
-      <TodoTable />
-
       <CreateTodoButton />
+      <TodoTable />
 
     </React.Fragment>
   );

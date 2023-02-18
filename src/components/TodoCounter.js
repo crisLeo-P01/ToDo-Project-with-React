@@ -3,7 +3,7 @@ import '../css/TodoCounter.css';
 
 function TodoCounter() {
   return (
-    <h2 className="TodoCounter">Has completado 2 de 3 TODOs</h2>
+  <span className="TodoCounter text-center">Completed 2 to 5</span>
   );
 }
 

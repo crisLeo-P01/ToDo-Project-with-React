@@ -1,0 +1,13 @@
+.containTable {
+  background: rgba(36, 36, 36, .75);
+  border-radius: 20px;
+  padding: 40px 30px 55px;
+  position: absolute;
+  right: 15%;
+  top: 37px;
+  width: 428px;
+}
+.titleTable {
+  font-size: 48px;
+  color: #FFF;
+}
