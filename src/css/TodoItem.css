@@ -8,6 +8,9 @@
   list-style: none;
   padding: 8px 16px;
 }
+.TodoItem--complete {
+  background: rgba(217, 217, 217, .45);
+}
 .textoItem {
   font-family: 'Rubik';
   font-weight: 400;
@@ -17,6 +20,9 @@
 .iconFa {
   font-size: 1.3rem;
   color: #282828;
+}
+.faTrash:hover {
+  color: rgb(226, 44, 12);
 }
 .Icon-check--active {
   color: #1ad796;
