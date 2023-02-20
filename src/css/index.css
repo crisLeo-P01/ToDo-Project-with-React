@@ -8,6 +8,7 @@ body {
   background: url('../../public/images/bgApp.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
 }
 code {

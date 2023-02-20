@@ -18,15 +18,10 @@
   box-shadow: none;
   background: #b47e85;
 }
-.containTodoButton {
-  position: relative;
-  overflow: hidden;
-  height: 100vh;
-}
 .containCreateTask {
-  position: absolute;
-  bottom: 95px;
-  left: 95px;
+  /* position: absolute;
+  top: 35px;
+  left: 95px; */
   display: grid;
   row-gap: 16px;
   z-index: 1;
@@ -49,24 +44,4 @@ span {
   font-weight: 600;
   font-size: 24px;
   color: #FBFBFB;
-}
-.bgCreateTask1,
-.bgCreateTask2 {
-  position: absolute;
-  border-radius: 20px;
-  transform: rotate(30deg);
-}
-.bgCreateTask1 {
-  background: linear-gradient(211.23deg, #3B3141 -0.39%, #AB68D4 32.33%, #DED6E3 90%);
-  width: 779px;
-  height: 779px;
-  left: -260px;
-  bottom: -215px;
-}
-.bgCreateTask2 {
-  background: rgba(59, 49, 65, 0.6);
-  left: -300px;
-  bottom: -275px;
-  width: 900px;
-  height: 900px;
 }
